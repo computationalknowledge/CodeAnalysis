@@ -1,0 +1,25 @@
+class LineCharacter{
+    var name:String;
+    var animalType:String;
+    
+    init(aName:String, anAnimalType:String){
+            self.name = aName;
+            self.animalType = anAnimalType;
+    }
+}
+let BrownBear = LineCharacter(aName:"Brown", anAnimalType:"Bear")
+var y = BrownBear.name
+print(y)
+
+class LineCharacter{
+    var name:String;
+    var animalType:String;
+    
+    init(aName:String, anAnimalType:String){
+            self.name = aName;
+            self.animalType = anAnimalType;
+    }
+}
+let Cony = LineCharacter(aName:"CONY", anAnimalType:"Rabbit")
+var m = Cony.name
+print(m)
